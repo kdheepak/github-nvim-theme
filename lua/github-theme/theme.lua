@@ -67,8 +67,8 @@ function M.setup(config)
     StatusLine = {fg = c.bg, bg = c.bg_statusline}, -- status line of current window
     StatusLineNC = {fg = c.fg, bg = c.bg}, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
     TabLine = {bg = c.bg, fg = c.fg}, -- tab pages line, not active tab page label
-    TabLineFill = {bg = c.bg2}, -- tab pages line, where there are no labels
-    TabLineSel = {fg = c.pmenu.select, bg = c.blue}, -- tab pages line, active tab page label
+    TabLineFill = {fg = c.pmenu.select, bg = c.bg2}, -- tab pages line, where there are no labels
+    TabLineSel = {fg = c.blue, bg = c.bg2}, -- tab pages line, active tab page label
     Title = {fg = c.syntax.variable, style = "bold"}, -- titles for output from ":set all", ":autocmd" etc.
     Visual = {bg = c.bg_visual_selection}, -- Visual mode selection
     VisualNOS = {bg = c.bg_visual_selection}, -- Visual mode selection when vim is "Not Owning the Selection".
